@@ -1,3 +1,68 @@
-.header{
+.contenedor {
+    background-color: rgb(88, 88, 245);
+    height: 100%;
+}
+
+.header {
     display: flex;
+    justify-content: space-between;
+    background-color: grey;
+    height: 50px;
+}
+
+.logo {
+    background-color: rgb(255, 187, 0);
+    margin: 8px;
+    padding: 10px;
+}
+
+.buscador{
+    background-color: white;
+    margin : 9px;
+    width: 40%;
+    text-align: center;
+    margin-right: 20px;
+}
+
+.centro {
+    display:  flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.sideBar {
+    background-color: gray;
+    height: 100%px;
+    width: 20%;
+    text-align: center;
+    align-items: center;
+}
+
+.content {
+    background-color: rgb(74, 199, 69);
+    height: 300px;
+    width: 100%;
+    text-align: center;
+    margin-left: 30px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(255, 187, 0);
+    height: 90px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+.footer1, .footer2, .footer3 {
+    background-color: grey;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    width: 80px;
 }
