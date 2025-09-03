@@ -1,0 +1,73 @@
+/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Nerko+One&display=swap');
+
+:root{
+    --color-h2:#ff4900;
+    --tamaño-fuente-h2:2rem;
+    --tamaño-fuente-p1:16px;
+    --color-p1:#0093FF;
+    --fuente-p1:"Arial";
+    --tamaño-fuente-p2:12px;
+    --color-fuente-p2:#c500ff;
+    --fuente-p2:"Nerko One", cursive;
+    --color-links:#001bff;
+    --estilo-bold:bold;
+    --color-encabezado:#000000;
+    --color-fuente-encabezado:#ffffff;
+    --tamaño-fuente-encabezado:1.5rem;
+    --color-fila1y3:#bec1c3;
+    --color-fila-central:#045795;
+}
+
+h2{
+    color: var(--color-h2);
+    font-size: var(--tamaño-fuente-h2);
+}
+
+#p1{
+    font-size: var(--tamaño-fuente-p1);
+    color: var(--color-p1);
+    font-family: var(--fuente-p1);
+}
+
+#p2{
+    font-size: var(--tamaño-fuente-p2);
+    color: var(--color-fuente-p2);
+    font-family: var(--fuente-p2);
+
+}
+a{
+    text-decoration:none;
+    font-weight: var(--estilo-bold);
+    color: var(--color-links);
+}
+a:visited { color: #4CAF50; }
+a:hover {
+color: #ff6600;
+text-decoration: underline
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th{
+    background-color: var(--color-encabezado);
+    color: var(--color-fuente-encabezado);
+    font-size: var(--tamaño-fuente-encabezado);
+}
+
+.fila1, .fila3{
+    background-color: var(--color-fila1y3);
+    color: var(--color-encabezado);
+    font-size: var(--tamaño-fuente-encabezado);
+    border: #000000 1px solid;
+}
+
+.fila2 {
+    background-color: var(--color-fila-central);
+    color: var(--color-fuente-encabezado);
+    font-size: var(--tamaño-fuente-encabezado);
+    border: #000000 1px solid;
+}
