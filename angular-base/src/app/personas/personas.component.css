@@ -1,0 +1,15 @@
+/* Variables de estilo y usarlas a gusto */
+/* Variables de estilo */
+:root{
+    --color-fondos:#ffff43;
+    --color-primario:#ffffff;
+    --color-2: #d63636;
+    --color-3: #eb7f7f ;
+    --border-radius-1: .25rem;
+    --font-size: 1rem;
+    --font-family-1: "roboto", sans-serif;
+}
+
+h1{
+    color: var(--color-2);
+}
