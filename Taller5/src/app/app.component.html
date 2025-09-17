@@ -1,0 +1,48 @@
+<h1>Compra de boleto</h1>
+<div>
+    <div id="usuario">
+        <h2>Usuario</h2>
+        <p>Nombre:</p>
+        <float-label-basic-demo></float-label-basic-demo>
+        <br>
+        <p>Cédula:</p>
+        <input-mask-basic-demo></input-mask-basic-demo>
+        <hr>
+    </div>
+    <div id="Seleccion">
+        <h2>Seleción</h2>
+        <p>Seleccione destino:</p>
+        <cascade-select-basic-demo></cascade-select-basic-demo>
+        <br>
+        <p>Más de una maleta?:</p>
+        <toggle-switch-basic-demo></toggle-switch-basic-demo>
+        <br>
+        <h2>Seleccione tipo de asiento</h2>
+        <div id="asiento">
+            <div id="normal">
+                <p>Normal</p>
+                <checkbox-indeterminate-demo></checkbox-indeterminate-demo>
+            </div>
+            <div id="premium">
+                <p>Ejecutivo</p>
+                <checkbox-indeterminate-demo></checkbox-indeterminate-demo>
+            </div>
+        </div>
+        <br>
+        <p>Fecha:</p>
+        <datepicker-basic-demo></datepicker-basic-demo>
+    </div>
+    <div id="Comentarios">
+        <p>Tamaño fuente comentarios</p>
+        <slider-input-demo></slider-input-demo>
+        <br>
+        <panel-basic-demo></panel-basic-demo>
+        <br>
+        <rating-template-demo></rating-template-demo>
+        <hr>
+        <br>
+        <button-directive-demo></button-directive-demo>
+    </div>
+</div>
+
+<router-outlet />
